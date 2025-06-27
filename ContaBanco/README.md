@@ -1,18 +1,32 @@
-## Getting Started
+# 💳 Projeto Conta Terminal - Banco Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples feito em Java como parte de um desafio da plataforma DIO no Bootcamp Santader 2025 - Java Back-end
+O objetivo é simular a abertura de uma conta bancária através do terminal, coletando informações do usuário e exibindo uma mensagem formatada com os dados fornecidos.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Solicita número da conta
+- Solicita agência (com suporte a hífen)
+- Solicita nome completo
+- Solicita saldo inicial
+- Exibe uma mensagem de confirmação com os dados informados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📷 Demonstração
 
-## Dependency Management
+```bash
+Bem-vindo ao Banco Java!
+Por favor, insira o número da sua conta: 1234
+Em seguida, informe sua agência: 0001-X
+Insira seu nome completo: Débora Almeida
+Digite seu saldo: 1580.50
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Obrigado por fornecer suas informações!
+Olá Débora Almeida, obrigado por criar uma conta em nosso banco!
+Número da conta: 1234
+Agência: 0001-X
+Seu saldo de R$ 1580.50 já encontra-se disponível para saque.
+
